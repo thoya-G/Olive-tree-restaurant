@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    color: white;
+    width: 100%;
+}
+
+h1{
+    font-size:60px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color:black;
+}
+
+.navbar{
+    padding-top: 0;
+    list-style: none;
+    font-size: xx-large;
+
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.Box1{
+    padding: 0;
+    max-width: 100%;
+}
+
+.heading{
+    text-align: center;
+    font-size:xx-large;
+    color: black;
+}
+
+.heading-2{
+    padding-top: 60px;
+    text-align: center;
+    color: black;
+}
+
+.content{
+    margin: 25px 50px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    border: 5px white solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+    color:white;
+}
+
+footer{
+    text-align: center;
+    font-weight: 900;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.context{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.dump1{
+    color: white;
+    line-height: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.stack1 li{
+    list-style-type: none;
+}
+
+.stack1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    line-height: 30px;
+
+}
+
+.stack1>div{
+    margin: 30px;
+    padding: 15px;
+}
+
+.images{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.images>div>img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+@media(max-width:532px){
+    .Box1 img{
+        width: 100%;
+
+    }
+}
+
+@media (max-width:532px){
+    .topnav li{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:532px){
+    .stack1{
+        flex-direction: column;
+    }
+
+    .images{
+        flex-direction: column;
+    }
+
+}
